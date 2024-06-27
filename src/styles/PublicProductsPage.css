@@ -1,0 +1,151 @@
+/* src/styles/PublicProductsPage.css */
+
+.products-page {
+  padding-top: 100px; /* Ajusta según la altura de la barra de navegación */
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-bar .MuiInputBase-root {
+  width: 100%; /* Ajustamos el ancho del InputBase al 100% */
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  border: 2px solid #333333; /* Agrega un borde al input */
+  border-radius: 5px; /* Redondea los bordes */
+}
+
+.search-bar .MuiInputBase-input {
+  padding: 10px 40px 10px 10px; /* Ajusta el padding del texto ingresado */
+  font-size: 16px; /* Ajusta el tamaño del texto ingresado */
+}
+
+.search-bar .MuiInputBase-input::placeholder {
+  font-size: 16px; /* Ajusta el tamaño del placeholder */
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-card .card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1; /* Hace que la tarjeta ocupe todo el espacio disponible */
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card p {
+  margin: 5px 0;
+  text-align: center;
+  color: #28a745;
+}
+
+.product-price {
+  color: #28a745; /* Verde */
+  font-weight: bold;
+  margin-top: auto; /* Empuja el precio hacia abajo */
+}
+
+.order-product {
+  background-color: #e23d40; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  width: 100%; /* Ocupa el 100% del ancho de la tarjeta */
+  transition: background-color 0.3s;
+}
+
+.order-product:hover {
+  background-color: #9e0d0f;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente el span */
+  padding: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #e23d40; /* Rojo */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  display: flex;
+  align-items: center; /* Centra verticalmente el texto dentro del span */
+}

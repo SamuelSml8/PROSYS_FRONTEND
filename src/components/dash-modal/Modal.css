@@ -1,0 +1,93 @@
+/* Modal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  max-height: 90%; /* Añadido para limitar la altura del modal */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Añadido para permitir el desplazamiento */
+}
+
+.modal h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal form div {
+  margin-bottom: 15px;
+}
+
+.modal label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.modal input[type="text"],
+.modal input[type="number"],
+.modal input[type="date"],
+.modal input[type="password"],
+.modal input[type="email"],
+.modal select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.modal button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal button:hover {
+  background-color: #45a049;
+}
+
+.modal .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal .close-button:hover {
+  background-color: #e23d40;
+  color: white;
+}

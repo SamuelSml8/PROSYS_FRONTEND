@@ -1,0 +1,83 @@
+{
+  "Header": {
+    "title": "SOMOS RETENES",
+    "paragraph": "Expertos en Rodamientos, Balineras y Rodillos de Alta Calidad."
+  },
+  "About": {
+    "paragraph": "Prosys es una empresa dedicada a ofrecer soluciones integrales en tecnología y repuestos industriales. Con un equipo altamente capacitado y una filosofía centrada en la innovación y el servicio al cliente, nos hemos posicionado como líderes en la industria. Prosys se compromete a proporcionar productos y servicios de la más alta calidad, asegurando que nuestros clientes reciban exactamente lo que necesitan para mantener sus operaciones funcionando sin problemas...",
+    "Why": [
+      "Experiencia comprobada",
+      "Calidad garantizada",
+      "Innovación constante",
+      "Atención personalizada"
+    ],
+    "Why2": [
+      "Amplia gama de productos",
+      "Red de suministro confiable",
+      "Servicio a domicilio",
+      "Soporte técnico especializado"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-group",
+      "name": "Atención Personalizada",
+      "text": "Valoramos a cada cliente y nos aseguramos de proporcionar un servicio personalizado que se ajuste a sus necesidades específicas."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Red de Suministro Confiable",
+      "text": "Tenemos alianzas estratégicas con proveedores líderes que nos permiten ofrecer productos de alta calidad a precios competitivos."
+    },
+    {
+      "icon": "fa fa-motorcycle",
+      "name": "Servicio de Domicilios",
+      "text": "Facilitamos la adquisición de todos nuestros productos con un eficiente servicio de entrega a domicilio en el valle de aburrá."
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "Soporte Técnico Especializado",
+      "text": "Nuestro equipo de soporte técnico está siempre disponible para ayudar a resolver cualquier problema y dar garantía."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Asesoría Técnica y Consultoría",
+      "text": "Brindamos asesoría técnica y consultoría personalizada para ayudar a nuestros clientes a seleccionar sus productos."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Venta y Suministro de Piezas",
+      "text": "Nos especializamos en la comercialización de una amplia gama de repuestos, rodamientos y balineras de alta calidad."
+    }
+  ],
+  "Contact": {
+    "address": "Cra. 60 #44A-25, La Candelaria, Medellín - Colombia.",
+    "phone": "316 3486716",
+    "email": "info@somosretenes.com",
+    "facebook": "https://web.facebook.com/p/Somos-Retenes-100064166049047/?_rdc=1&_rdr",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-truck",
+      "title": "Comercialización",
+      "text": "Ofrecemos una extensa gama de repuestos, con un enfoque principal en retenedores y rodamientos de alta calidad. Garantizamos productos confiables y duraderos para satisfacer las necesidades de nuestros clientes."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Representación de Fábricas",
+      "text": "Representamos orgullosamente a las principales fábricas nacionales de retenedores, con especialidad en sellos diseñados para camiones. Nuestra experiencia y alianzas estratégicas nos permiten proporcionar soluciones precisas."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Atención al Cliente",
+      "text": "Comprometidos con tu satisfacción, nuestro equipo de atención al cliente está siempre disponible para responder tus preguntas y ayudarte a encontrar los productos que necesitas. ¡Estamos aquí para brindarte un servicio excepcional!"
+    },
+    {
+      "icon": "fa fa-motorcycle",
+      "title": "Domicilios",
+      "text": "Disfruta de la comodidad de recibir tus productos directamente en la puerta de tu casa. Con nuestro servicio de domicilios, te llevamos rodamientos, balineras y rodillos de calidad personalmente, sin complicaciones."
+    }
+  ]
+}

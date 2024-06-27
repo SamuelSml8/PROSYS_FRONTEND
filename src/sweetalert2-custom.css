@@ -1,0 +1,20 @@
+/* sweetalert2-custom.css */
+
+.swal2-popup {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+}
+
+.swal2-title {
+  font-size: 2rem;
+}
+
+.swal2-html-container {
+  font-size: 1.4rem;
+}
+
+.swal2-confirm,
+.swal2-cancel {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+}
